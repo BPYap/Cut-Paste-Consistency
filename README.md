@@ -159,12 +159,12 @@ python main.py \
 
 ## Citation
 ```
-@misc{yap2022cutpaste,
-      title={Cut-Paste Consistency Learning for Semi-Supervised Lesion Segmentation}, 
-      author={Boon Peng Yap and Beng Koon Ng},
-      year={2022},
-      eprint={2210.00191},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@InProceedings{Yap_2023_WACV,
+    author    = {Yap, Boon Peng and Ng, Beng Koon},
+    title     = {Cut-Paste Consistency Learning for Semi-Supervised Lesion Segmentation},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2023},
+    pages     = {6160-6169}
 }
 ```
