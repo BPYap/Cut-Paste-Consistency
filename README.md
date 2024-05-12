@@ -18,17 +18,17 @@ python setup.py install
 ### Datasets
 
 - IDRiD - [Source](https://idrid.grand-challenge.org/)
-- CT-ICH - [Source](https://physionet.org/content/ct-ich/1.3.1/) | [CV folds](https://entuedu-my.sharepoint.com/:f:/g/personal/boonpeng001_e_ntu_edu_sg/EhLCdguGK4tElwI-hyQxU2wB5KcAlQyRGMyejz7RYCUqbg?e=IHYnPT)
+- CT-ICH - [Source](https://physionet.org/content/ct-ich/1.3.1/) | [CV folds](https://drive.google.com/drive/folders/1DGko7vm9T6BgndYKnIzpBJyNvdF93Tig?usp=sharing)
 
 ### Pretrained weights (PyTorch)
 Example model checkpoints for the lesion segmentation tasks in IDRiD are provided:
 
 | Model                                                                                                                                         | Method                               | AUC-PR (%) |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|------------|
-| [IDRiD-MA](https://entuedu-my.sharepoint.com/:f:/g/personal/boonpeng001_e_ntu_edu_sg/Eri3JNgyQrBAqYMhaogecq8Bkwo4iD5bAc8UfJ0mtOKQZw?e=hfYsee) | Cut-Paste Consistency + Mean Teacher | 51.33      |
-| [IDRiD-HE](https://entuedu-my.sharepoint.com/:f:/g/personal/boonpeng001_e_ntu_edu_sg/EsH4KXAB0q1FvOHgdFfT8sIBVxnWpOre99nk6X5H7H0uPw?e=aTq0HN) | Cut-Paste Consistency + Mean Teacher | 66.86      |
-| [IDRiD-EX](https://entuedu-my.sharepoint.com/:f:/g/personal/boonpeng001_e_ntu_edu_sg/EhzV9OecJkxEvMCPR-HRWhwBPvMfyehLxBS8htwvqwwVaA?e=BhdZEk) | Cut-Paste Consistency + Mean Teacher | 88.70      |
-| [IDRiD-SE](https://entuedu-my.sharepoint.com/:f:/g/personal/boonpeng001_e_ntu_edu_sg/EhWGohbpS9FPm5hPkoMeGrABjYCgkaf2dkcFNmH7kZidFg?e=Jr7I3d) | Cut-Paste Consistency + Mean Teacher | 79.53      |
+| [IDRiD-MA](https://drive.google.com/drive/folders/1VKW2-Q8NI2eQUw0OfmYtubh3J84FQVGn?usp=sharing) | Cut-Paste Consistency + Mean Teacher | 51.33      |
+| [IDRiD-HE](https://drive.google.com/drive/folders/1jmAx8ZXCbHwVC5kwzssJ49-WYVl7pYf6?usp=sharing) | Cut-Paste Consistency + Mean Teacher | 66.86      |
+| [IDRiD-EX](https://drive.google.com/drive/folders/1cnG1MSeS7Z7yZE9eupsvKaA8me7d2Igg?usp=sharing) | Cut-Paste Consistency + Mean Teacher | 88.70      |
+| [IDRiD-SE](https://drive.google.com/drive/folders/1pLlplG3szkC2TxgTdUqwzrdvPP6iQ4fL?usp=sharing) | Cut-Paste Consistency + Mean Teacher | 79.53      |
 
 ## Training
 
